@@ -11,5 +11,10 @@
 |
 */
 
+// TOPページ
+Route::get('/', function () {
+    return view('top');
+});
+
 // 出店者一覧
 Route::get('owners', 'OwnerController@index')->name('owners.index');
