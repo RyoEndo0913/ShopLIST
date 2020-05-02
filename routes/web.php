@@ -18,3 +18,6 @@ Route::get('/', function () {
 
 // 出店者一覧
 Route::get('owners', 'OwnerController@index')->name('owners.index');
+
+// 出店登録
+Route::get('owners/create', 'OwnerController@create')->name('owners.create');
