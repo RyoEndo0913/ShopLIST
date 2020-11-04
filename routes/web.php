@@ -17,4 +17,4 @@ Route::get('/', function () {
 });
 
 // 出店者一覧
-Route::get('owners', 'OwnerController@index')->name('owners.index');
+Route::resource('owners', 'OwnersController');

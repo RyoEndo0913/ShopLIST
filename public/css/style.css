@@ -54,3 +54,8 @@ html, body {
 .m-b-md {
     margin-bottom: 30px;
 }
+
+.name {
+    content: "\A" ;
+	white-space: pre ;
+}
