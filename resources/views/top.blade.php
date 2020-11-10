@@ -16,13 +16,7 @@
 
                 <div class="links">
                     <a href="owners">出店者一覧</a>
-                    <a href="#">出店品目</a>
-                    <a href="#">会場</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Nova</a>
-                    <a href="#">Forge</a>
-                    <a href="#">Vapor</a>
-                    <a href="#">GitHub</a>
+                    <a href="#">出店リスト出力</a>
                 </div>
             </div>
         </div>

@@ -8,10 +8,7 @@
     <title>出店表</title>
 </head>
 <body>
-<h1>出店者一覧</h1>
-<a href="{{ route('owners.create') }}">    
-    <button class="btn">登録</button>
-</a>
+<h1>出店者登録</h1>
     <div class="mt-10">
         <table>
             <tr>
@@ -21,7 +18,8 @@
                 <th>性別</th>
                 <th>電話番号</th>
             </tr>
-            @foreach($owners as $owner)
+            <input> 
+            {{-- @foreach($owners as $owner)
                 <tr>
                     <td>
                         <a href="{{ route('owners.show', $owner->id) }}">
@@ -36,7 +34,7 @@
                     <td>{{$owner->owner_sex}}</td>
                     <td><a href="tel:{{$owner->owner_tell}}">{{$owner->owner_tell}}</a></td>
                 </tr>
-            @endforeach
+            @endforeach --}}
         </table>
     </div>
 </body>

@@ -108,8 +108,16 @@ table tr:last-child td:last-child {
     margin-top: 10px;
 }
 
+.pt-10{
+    padding-top: 10px;
+}
+
 h1{
     text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .btn {

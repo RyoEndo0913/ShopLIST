@@ -26,7 +26,7 @@ class OwnersController extends Controller
      */
     public function create()
     {
-        //
+        return view('owners.create');
     }
 
     /**
@@ -48,7 +48,8 @@ class OwnersController extends Controller
      */
     public function show($id)
     {
-        //
+        $owners = Owner::find($id);
+        return view('owners.show', compact('owners'));
     }
 
     /**
